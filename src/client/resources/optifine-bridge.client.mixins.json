@@ -1,0 +1,18 @@
+{
+	"required": true,
+	"package": "com.lexioe.bridge.client.mixin",
+	"plugin": "com.lexioe.bridge.BridgeMixinPlugin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"ExampleClientMixin",
+		"OptifineTargetsMixin",
+		"OptifineInterfaceTargetsMixin",
+		"TitleScreenOptifineMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
